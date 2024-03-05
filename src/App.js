@@ -112,14 +112,24 @@ function App() {
               {diag == "alto" && (
                 <>
                   {" "}
-                  <h1 className="alto"> Você não está bem!</h1>{" "}
+                  <h1 className="alto">
+                    {" "}
+                    O seu cliente possui um alto risco de adquirir lesão por
+                    pressão!! Clique no botão "intervenções" para a prática da
+                    prevenção.
+                  </h1>{" "}
                   <img src="https://media1.tenor.com/m/piCXvK3ABIUAAAAC/be-doo-be-doo-minion.gif" />{" "}
                 </>
               )}
               {diag == "medio" && (
                 <>
                   {" "}
-                  <h1 className="medio"> Você está bem?</h1>{" "}
+                  <h1 className="medio">
+                    {" "}
+                    O seu cliente possui risco moderado de adquirir lesão por
+                    pressão Clique no botão "intervenções" para a prática da
+                    prevenção.
+                  </h1>{" "}
                   <img src="https://media1.tenor.com/m/2ER74Ee4Ou0AAAAC/hmmnotbad-hmm.gif" />{" "}
                 </>
               )}
@@ -127,7 +137,12 @@ function App() {
               {diag == "baixo" && (
                 <>
                   {" "}
-                  <h1 className="baixo"> Você está bem!</h1>{" "}
+                  <h1 className="baixo">
+                    {" "}
+                    O seu cliente possui baixo risco de adquirir lesão por
+                    pressão Clique no botão "intervenções" para a prática da
+                    prevenção.
+                  </h1>{" "}
                   <img src="https://media.tenor.com/jg0-zHyA_8oAAAAi/winnie-the-pooh-pooh-bear.gif" />{" "}
                 </>
               )}
